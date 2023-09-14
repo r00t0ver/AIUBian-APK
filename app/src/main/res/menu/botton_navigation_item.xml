@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:checked="true"
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/web"
+        android:iconTint="@color/black"
+        android:title="Website"
+        />
+
+    <item
+        android:id="@+id/portal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/student"
+        android:iconTint="@color/black"
+        android:title="Portal"
+
+        />
+
+
+    <item
+        android:id="@+id/teams"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/team"
+        android:iconTint="@color/black"
+        android:title="Team"
+        />
+
+    <item
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/mail"
+        android:iconTint="@color/black"
+        android:title="Mail"
+        />
+</menu>
