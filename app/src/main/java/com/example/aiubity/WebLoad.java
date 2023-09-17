@@ -1,5 +1,8 @@
 package com.example.aiubity;
 
+import static com.example.aiubity.MainActivity.fm;
+import static com.example.aiubity.MainActivity.ft;
+
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
@@ -64,13 +67,12 @@ public class WebLoad extends Fragment {
 
 
 
-
-
         ////
         CookieManager cookieManager = CookieManager.getInstance();
         cookieManager.setAcceptCookie(true);
         cookieManager.setAcceptThirdPartyCookies(web, true);
         ////
+
 
         if(link.contains("https://www.microsoft.com/en-us/microsoft-teams/log-in"))
         {
@@ -122,6 +124,7 @@ public class WebLoad extends Fragment {
             }
 
         });
+
         web.loadUrl(link);
         return view;
     }

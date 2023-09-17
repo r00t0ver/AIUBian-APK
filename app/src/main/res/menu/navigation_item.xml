@@ -9,28 +9,27 @@
             android:title="Home"
             android:checkable="true"
             android:checked="true"
+            android:icon="@drawable/icons8_home_48"
             />
         <item
-            android:id="@+id/navProfile"
+            android:id="@+id/navRoutine"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checkable="true"
-            android:title="Profile" />
-        <item
-            android:id="@+id/navNotification"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checkable="true"
-            android:title="Notification" />
+            android:title="Routine"
+            android:icon="@drawable/baseline_gradient_24"
+            />
 
     </group>
     <group>
         <item
-            android:id="@+id/navSetting"
+            android:id="@+id/navLogout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checkable="true"
-            android:title="Setting" />
+            android:title="Log Out"
+            android:icon="@drawable/log_out"
+            />
 
     </group>
 </menu>
